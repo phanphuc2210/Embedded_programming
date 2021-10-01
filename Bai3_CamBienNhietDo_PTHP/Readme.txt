@@ -1,0 +1,1 @@
+Bài này, thực hiện lập trình Arduino với cảm biến nhiệt độ TMP 36 đấu ở chân A0, nếu nhiệt độ lớn hơn 37 độ thì đèn Led sáng, ngược lại thì không. Led được đấu ở chân ~10.
