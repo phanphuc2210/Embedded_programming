@@ -19,7 +19,7 @@ void Khong(){
 }
 
 void Mot(){
-  digitalWrite(a,HIGH); digitalWrite(b,HIGH);
+  digitalWrite(a,LOW); digitalWrite(b,HIGH);
   digitalWrite(c,HIGH); digitalWrite(d,LOW);
   digitalWrite(e,LOW); digitalWrite(f,LOW);
   digitalWrite(g,LOW);
