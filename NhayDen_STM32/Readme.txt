@@ -1,0 +1,2 @@
+Đây là bài thực hành lập trình trên board mạch STM32, trong bài này sẽ làm cho 4 đèn Led nhấp nháy liên tục với thời gian
+delay là 1 giây. Bốn đèn sẽ lần lượt được đấu vào chân PA12, PA13, PA14, PA15 của STM32.

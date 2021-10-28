@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"nhayden\startup_stm32f401xe.o"
+"nhayden\main.o"
+"nhayden\stm32f4xx_it.o"
+"nhayden\stm32f4xx_hal_msp.o"
+"nhayden\stm32f4xx_hal_tim.o"
+"nhayden\stm32f4xx_hal_tim_ex.o"
+"nhayden\stm32f4xx_hal_rcc.o"
+"nhayden\stm32f4xx_hal_rcc_ex.o"
+"nhayden\stm32f4xx_hal_flash.o"
+"nhayden\stm32f4xx_hal_flash_ex.o"
+"nhayden\stm32f4xx_hal_flash_ramfunc.o"
+"nhayden\stm32f4xx_hal_gpio.o"
+"nhayden\stm32f4xx_hal_dma_ex.o"
+"nhayden\stm32f4xx_hal_dma.o"
+"nhayden\stm32f4xx_hal_pwr.o"
+"nhayden\stm32f4xx_hal_pwr_ex.o"
+"nhayden\stm32f4xx_hal_cortex.o"
+"nhayden\stm32f4xx_hal.o"
+"nhayden\stm32f4xx_hal_exti.o"
+"nhayden\system_stm32f4xx.o"
+--strict --scatter "NhayDen\NhayDen.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NhayDen.map" -o NhayDen\NhayDen.axf
