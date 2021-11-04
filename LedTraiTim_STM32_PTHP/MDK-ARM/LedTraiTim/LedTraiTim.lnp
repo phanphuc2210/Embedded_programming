@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"ledtraitim\startup_stm32f401xe.o"
+"ledtraitim\main.o"
+"ledtraitim\stm32f4xx_it.o"
+"ledtraitim\stm32f4xx_hal_msp.o"
+"ledtraitim\stm32f4xx_hal_tim.o"
+"ledtraitim\stm32f4xx_hal_tim_ex.o"
+"ledtraitim\stm32f4xx_hal_rcc.o"
+"ledtraitim\stm32f4xx_hal_rcc_ex.o"
+"ledtraitim\stm32f4xx_hal_flash.o"
+"ledtraitim\stm32f4xx_hal_flash_ex.o"
+"ledtraitim\stm32f4xx_hal_flash_ramfunc.o"
+"ledtraitim\stm32f4xx_hal_gpio.o"
+"ledtraitim\stm32f4xx_hal_dma_ex.o"
+"ledtraitim\stm32f4xx_hal_dma.o"
+"ledtraitim\stm32f4xx_hal_pwr.o"
+"ledtraitim\stm32f4xx_hal_pwr_ex.o"
+"ledtraitim\stm32f4xx_hal_cortex.o"
+"ledtraitim\stm32f4xx_hal.o"
+"ledtraitim\stm32f4xx_hal_exti.o"
+"ledtraitim\system_stm32f4xx.o"
+--strict --scatter "LedTraiTim\LedTraiTim.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LedTraiTim.map" -o LedTraiTim\LedTraiTim.axf
