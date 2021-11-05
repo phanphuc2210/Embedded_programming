@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"nutbam-stm32\startup_stm32f401xe.o"
+"nutbam-stm32\main.o"
+"nutbam-stm32\stm32f4xx_it.o"
+"nutbam-stm32\stm32f4xx_hal_msp.o"
+"nutbam-stm32\stm32f4xx_hal_tim.o"
+"nutbam-stm32\stm32f4xx_hal_tim_ex.o"
+"nutbam-stm32\stm32f4xx_hal_rcc.o"
+"nutbam-stm32\stm32f4xx_hal_rcc_ex.o"
+"nutbam-stm32\stm32f4xx_hal_flash.o"
+"nutbam-stm32\stm32f4xx_hal_flash_ex.o"
+"nutbam-stm32\stm32f4xx_hal_flash_ramfunc.o"
+"nutbam-stm32\stm32f4xx_hal_gpio.o"
+"nutbam-stm32\stm32f4xx_hal_dma_ex.o"
+"nutbam-stm32\stm32f4xx_hal_dma.o"
+"nutbam-stm32\stm32f4xx_hal_pwr.o"
+"nutbam-stm32\stm32f4xx_hal_pwr_ex.o"
+"nutbam-stm32\stm32f4xx_hal_cortex.o"
+"nutbam-stm32\stm32f4xx_hal.o"
+"nutbam-stm32\stm32f4xx_hal_exti.o"
+"nutbam-stm32\system_stm32f4xx.o"
+--strict --scatter "NutBam-STM32\NutBam-STM32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "NutBam-STM32.map" -o NutBam-STM32\NutBam-STM32.axf

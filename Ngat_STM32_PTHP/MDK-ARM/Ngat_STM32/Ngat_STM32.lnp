@@ -1,0 +1,25 @@
+--cpu=Cortex-M4.fp.sp
+"ngat_stm32\startup_stm32f401xe.o"
+"ngat_stm32\main.o"
+"ngat_stm32\stm32f4xx_it.o"
+"ngat_stm32\stm32f4xx_hal_msp.o"
+"ngat_stm32\stm32f4xx_hal_tim.o"
+"ngat_stm32\stm32f4xx_hal_tim_ex.o"
+"ngat_stm32\stm32f4xx_hal_rcc.o"
+"ngat_stm32\stm32f4xx_hal_rcc_ex.o"
+"ngat_stm32\stm32f4xx_hal_flash.o"
+"ngat_stm32\stm32f4xx_hal_flash_ex.o"
+"ngat_stm32\stm32f4xx_hal_flash_ramfunc.o"
+"ngat_stm32\stm32f4xx_hal_gpio.o"
+"ngat_stm32\stm32f4xx_hal_dma_ex.o"
+"ngat_stm32\stm32f4xx_hal_dma.o"
+"ngat_stm32\stm32f4xx_hal_pwr.o"
+"ngat_stm32\stm32f4xx_hal_pwr_ex.o"
+"ngat_stm32\stm32f4xx_hal_cortex.o"
+"ngat_stm32\stm32f4xx_hal.o"
+"ngat_stm32\stm32f4xx_hal_exti.o"
+"ngat_stm32\system_stm32f4xx.o"
+--strict --scatter "Ngat_STM32\Ngat_STM32.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "Ngat_STM32.map" -o Ngat_STM32\Ngat_STM32.axf
