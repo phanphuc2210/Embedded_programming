@@ -1,0 +1,27 @@
+--cpu Cortex-M4.fp
+"thstm32_adc_lm35\startup_stm32f401xe.o"
+"thstm32_adc_lm35\main.o"
+"thstm32_adc_lm35\stm32f4xx_it.o"
+"thstm32_adc_lm35\stm32f4xx_hal_msp.o"
+"thstm32_adc_lm35\stm32f4xx_hal_adc.o"
+"thstm32_adc_lm35\stm32f4xx_hal_adc_ex.o"
+"thstm32_adc_lm35\stm32f4xx_hal_rcc.o"
+"thstm32_adc_lm35\stm32f4xx_hal_rcc_ex.o"
+"thstm32_adc_lm35\stm32f4xx_hal_flash.o"
+"thstm32_adc_lm35\stm32f4xx_hal_flash_ex.o"
+"thstm32_adc_lm35\stm32f4xx_hal_flash_ramfunc.o"
+"thstm32_adc_lm35\stm32f4xx_hal_gpio.o"
+"thstm32_adc_lm35\stm32f4xx_hal_dma_ex.o"
+"thstm32_adc_lm35\stm32f4xx_hal_dma.o"
+"thstm32_adc_lm35\stm32f4xx_hal_pwr.o"
+"thstm32_adc_lm35\stm32f4xx_hal_pwr_ex.o"
+"thstm32_adc_lm35\stm32f4xx_hal_cortex.o"
+"thstm32_adc_lm35\stm32f4xx_hal.o"
+"thstm32_adc_lm35\stm32f4xx_hal_exti.o"
+"thstm32_adc_lm35\stm32f4xx_hal_tim.o"
+"thstm32_adc_lm35\stm32f4xx_hal_tim_ex.o"
+"thstm32_adc_lm35\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "THSTM32_ADC_LM35\THSTM32_ADC_LM35.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "THSTM32_ADC_LM35.map" -o THSTM32_ADC_LM35\THSTM32_ADC_LM35.axf
