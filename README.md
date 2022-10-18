@@ -3,7 +3,8 @@
 This is where embedded programming exercises are stored🔥🔥🔥
 
 # Học MarkDown
-## Thêm ảnh vào file MarkDown
+1. Thêm ảnh vào file MarkDown
+
 Để chèn link vào bài viết, bạn dùng cú pháp sau
 ```
 ![alt](http://~)
